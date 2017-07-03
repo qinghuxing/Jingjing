@@ -18,4 +18,4 @@
 > [371]
 1. if I want a as a negative number, not a long type positive one:
 mask=0xFFFFFFFF, return ~(a^mask)
-~a=-a-1
+2. ~a=-a-1
