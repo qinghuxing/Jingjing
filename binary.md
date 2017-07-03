@@ -24,6 +24,8 @@ mask=0xFFFFFFFF, return ~(a^mask)
 a& ~(a-1), return the last '1' in the sequence of a. 
 
 
+
 >x.zfill(32) fill with '0' at front to be 32 bits. x has to be string;
+
 >'{:032b}'.format(x) same, x has to be interger.
 
