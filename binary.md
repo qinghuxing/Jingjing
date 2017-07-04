@@ -20,3 +20,4 @@ a& ~(a-1), return the last '1' in the sequence of a.
 
 >'{:032b}'.format(x) same, x has to be interger.
 
+> [477] .count('0') *.count('1') to calculate the hamming distances between all numbers at one particular bit
