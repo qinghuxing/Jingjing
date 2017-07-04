@@ -1,2 +1,2 @@
-# python
-python training with leetcode
+# Leetcode
+training with leetcode
