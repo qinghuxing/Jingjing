@@ -1,0 +1,20 @@
+1. In-order traversal: can achive ascending order in BST. left -> root -> right. Recursive approach:
+Pseudo code: traverse(TreeNode node){
+                traverse(node.left);
+                node;
+                traverse(node.right);
+              }
+                
+2. Reverse in-order traversal: can achieve descending order in BST. right -> root -> left. Recursive approach:
+Pseudo code: traverse(TreeNode node){
+                traverse(node.right);
+                node;
+                traverse(node.left);
+              }
+              
+3. Pre-order traversal: root -> left -> right. Recursive approach:
+Pseudo code: traverse(TreeNode node){
+                node;
+                traverse(node.left);
+                traverse(node.right);
+              }
